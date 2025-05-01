@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "typeId": 1,
+    "shopId": 2,
+    "consumedAt": "2025-05-01T15:53:54.138Z",
+    "notes": "Boom",
+    "rating": 5,
+    "createdAt": "2025-05-01T15:53:54.139Z",
+    "updatedAt": "2025-05-01T15:53:54.139Z"
+  },
+  {
+    "id": 2,
+    "typeId": 1,
+    "shopId": 1,
+    "consumedAt": "2025-05-01T16:16:27.054Z",
+    "notes": "No Real Coffee",
+    "rating": 1,
+    "createdAt": "2025-05-01T16:16:27.054Z",
+    "updatedAt": "2025-05-01T16:16:27.054Z"
+  }
+]

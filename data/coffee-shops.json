@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Test Coffee Shop",
+    "location": "Test Location",
+    "createdAt": "2025-05-01T11:17:06.340Z",
+    "updatedAt": "2025-05-01T11:17:06.340Z"
+  },
+  {
+    "id": 2,
+    "name": "Iron Brew",
+    "location": "Chichester",
+    "createdAt": "2025-05-01T15:53:17.447Z",
+    "updatedAt": "2025-05-01T15:53:17.447Z"
+  }
+]

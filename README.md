@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Coffee Tracker
+
+A simple application to track your coffee experiences at different coffee shops.
+
+## Overview
+
+Coffee Tracker allows you to:
+- Add different types of coffee
+- Add coffee shops
+- Record your coffee experiences with ratings and notes
+- View your coffee journal
 
 ## Getting Started
 
@@ -6,31 +16,45 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technical Implementation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses:
+- **Next.js** for the frontend and API routes
+- **JSON files** for data persistence (file-based storage in the `data` directory)
+- **Tailwind CSS** for styling
 
-## Learn More
+## Usage Notes
 
-To learn more about Next.js, take a look at the following resources:
+### Data Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Currently, the application uses a simple file-based storage solution instead of a database to avoid compatibility issues. All data is stored in JSON files located in the `data` directory.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Adding Coffee Shops
 
-## Deploy on Vercel
+1. Navigate to the "Settings" tab
+2. Fill out the "Add New Coffee Shop" form with name and optional location
+3. Click "Add Coffee Shop" to save
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Adding Coffee Types
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Navigate to the "Settings" tab
+2. Fill out the "Add New Coffee Type" form with name and optional description
+3. Click "Add Coffee Type" to save
+
+### Tracking Your Coffee
+
+1. Navigate to the "Add Coffee" tab
+2. Select the coffee type and shop
+3. Add your rating and notes
+4. Click "Add to Journal" to save your coffee experience
+
+## Future Improvements
+
+- Implement proper database storage if needed (e.g., SQLite, MongoDB, etc.)
+- Add user authentication
+- Add photos to coffee entries
+- Implement search and filtering capabilities
