@@ -1,6 +1,10 @@
 # Coffee Tracker
 
-A simple application to track your coffee experiences at different coffee shops.
+Jo and Duncan learn to ... work with copilot, sitting in a pub by the side of the river in london drinking coffee after a really good AWS summit, we decided to create a coffee tracker using copilot agent.  
+
+totally inspired by the youtube [video by James Montemagno](https://www.youtube.com/watch?v=pUK7MRzoTDc&t=81s) 
+
+And this is the result..
 
 ## Overview
 
